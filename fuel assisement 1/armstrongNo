@@ -1,0 +1,24 @@
+//print all armstrong numbers between 100 to 999 using while loop.
+class armstrongNo.{
+public static void main (String[] args){
+int a,b;
+int p,q,r,s;
+int k;
+
+for(a=100;a<=999;a++);{
+
+while(a>0){
+p=a%10;
+q=a%100;
+r=q%10;
+s=a/100;
+for(a=100;a<=b;a++);
+k=p*p*p+r*r*r*+s*s*s;
+if(a==k)
+System.out.println(k);
+}
+}
+
+
+
+
